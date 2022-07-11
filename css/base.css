@@ -1,0 +1,194 @@
+/* Small/Phone View ***************/
+/* NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+/*
+color: #4b675B;
+background-color: #6A8E7F;
+color: #ffedc2;
+color: #fcfeeb; */
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+   
+}
+
+
+nav ul {
+
+    list-style-type: none;
+    margin-left: -10px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+ 
+    
+}
+nav ul li a {
+
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #fcfeeb;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li a {
+background-color: #6A8E7F;
+ width: 100%;
+}
+
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;}
+#hamburguerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburguerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburguerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburguerBtn.open span:nth-child(2) {
+    display: block;
+}
+#hamburguerBtn {
+    color: #ffedc2;
+
+}
+
+
+/* NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV*/
+
+
+header {
+
+    font-family: 'Merriweather', serif;
+    font-size: 10px; 
+}
+.header-container {
+    display: flex;
+}
+.logo img {
+    width: 60px;
+    margin-left: 80px;
+
+}
+
+header,
+footer {
+
+    background-color: #4b675B;
+    color: #ffedc2;
+	padding: 10px;
+ 
+}
+
+header h1 {
+    color: #ffedc2;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-left: 10px;
+    align-items: center; 
+}
+footer {
+    text-align: center;
+}
+footer img {
+    width: 50px;
+    height: 60px;
+}
+footer .copy {
+	display: flex;
+    font-size: 12px;
+    justify-content: center;
+	}
+.footer-left, .footer-contact {
+    font-size: 13px;
+}
+.footer-hr {
+	width: 100%;
+}
+
+footer h5 {
+    color: #ffedc2;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+footer p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.social {
+    display: flex;
+    flex-direction: column ;
+    margin-left: 80px;
+}
+.social a {
+    color: #ffedc2;
+   margin-left: 10px;
+
+}
+
+.reserve-button, .contact-button {
+    background-color: #000000a7;
+    height: 80px;
+    position: relative;
+    top: -83px;
+    text-align: center;
+    
+}
+.reserve-button a, .contact-button a {
+    text-decoration: none ;
+    color: #fcfeeb ;
+    position: relative;
+    top: 25px;
+    font-size: 30px;
+} 
+.contact-button a{ position: relative;
+    top: -10px;}
+.contact-button { 
+    position: relative;
+    top: -100px;}
+.contact-button p {
+    color: #6A8E7F;
+    position: relative;
+    top: 5px;
+    
+}
+.contact-home {
+ margin-top: -65px;
+}
+
+/*----------- MAIN --------------*/
+ul {
+    list-style: none;
+}
+
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+main picture.hero-img img {
+    width: 100%;
+
+}
+
+
+

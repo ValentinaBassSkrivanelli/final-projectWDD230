@@ -1,0 +1,232 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 38.5em) {
+	.header-container {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.social {
+		margin-left: 50%;
+	}
+	.currentdate-box {
+		margin-left: 40%;
+	}
+
+	/*container */
+	.container {
+		display: grid;
+		grid-template-columns: 50px 50px;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+		gap: 1em;
+		margin-top: 5px;
+		
+	}
+	#banner {
+		height: 30px;
+		width:auto;
+	
+	}
+	.hero {
+		width: 650px;
+
+	}
+	main picture.hero-img img {
+		grid-column: 1/2;
+		height: 230px;
+
+
+	
+	}
+	.join-now {
+		top: 150px;
+		left: 400px;
+		border-radius: 15px;
+	}
+	.event {
+		height: auto;
+		width:auto;
+		margin: 2px;
+		grid-column: 1/4;
+		grid-row: 5/6;
+		border-radius: 15px;
+		
+	}
+	.weather {
+		color: #ffffff;
+		height: auto;
+		width: auto;
+		margin: 5px;
+		grid-column: 4/5;
+		grid-row: 5/6;
+		border-radius: 15px;
+	
+	}
+	.weather-h2 {
+		margin-top: 5px;
+	}
+	#weather-icon { 
+		margin-top: -30px;
+	}
+	
+	.new {
+		padding: 5px;
+		margin: auto;
+		grid-column: 1/5;
+		grid-row: 2/3;
+		border-radius: 15px;
+
+	}
+	.spot {
+		display: flex;
+		grid-column: 1/5;
+		grid-row:3/4 ;
+		height: 150px;
+		width: 100%;
+		height: auto;
+		font-size: 12px;
+		justify-content: center;
+		border-radius: 15px;
+	}
+	.spot p {
+		font-size: 10px;
+	}
+
+	.spotlight1 {	
+		height: auto;
+		min-width: 48%;
+		margin: 1px;
+
+	}
+	.spotlight2 {
+		height: 150px;
+		min-width: 48%;
+		min-height: 190px ;		
+		margin: 1px;
+	
+	}
+
+	
+	.join {
+		display: block;
+		color: #fff;
+		background-color: #114B5F ;
+		height: 200px;
+		width: 100%;
+		grid-column: 1/5;
+		grid-row: 4/5;
+		padding: 10px;
+		border-radius: 15px;
+		
+		
+
+	}
+	
+	.join-us {
+
+		background-color: #BC7024;
+		padding: 5px;
+		height: 40px;
+		width: 80%;
+		position: absolute;
+		margin: 40px;
+		border-radius: 5px;
+	   
+	}
+	.join-us a {
+		color: #dec7af;
+		text-decoration: none;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 30px;
+	}
+	.join-us:hover{
+		color: #BC7024;
+		background-color: #114B5F;
+		transition: 0.5s;
+
+	}
+	.join p {
+		margin-left: 35px;
+		width: auto;
+	}
+	
+	/*FOOTER */
+	footer img {
+		width: 120px;
+		height: 120px;
+	}
+	.footer-1 {
+		display: flex;
+		flex-direction: row;
+	}
+	.footer-contact {
+		margin-left: 10px;
+	}
+
+	footer .map {
+		margin-left: 40%;
+	}
+	footer .copy p {
+		margin-left: 40px;
+	}
+	/* Discover.html */
+	.salta:hover {
+		box-shadow: 0 0 50px #114B5F;
+	}
+
+	.discover-gallery {
+		display: flex;
+		flex-direction: row;
+	
+	}
+	.discover-gallery p {
+	font-size: 10px;
+		}
+	.discover-salta {
+	 text-align: center;
+	
+	}
+	.img1, .img2, .img3, .img4,.img5{
+	 
+		margin: 8px;
+		height: 365px;
+		padding: 0.8rem;
+
+
+	}
+	/* .salta{
+	
+	float: left;
+		}
+		*/
+		/* */
+	.description {
+	width: 543px; height: 158px;
+	}
+	/* join.html*/
+	.benefits ul li {
+		display:block;
+	
+	 }
+	/* Directory.html
+	body{
+		
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap ;
+	}
+	*/
+	#companys {
+		max-width: 800px; 
+		
+		}
+		.companys h3 {
+			display: none;
+		}
+	section {
+		margin:  5px 5px 5px 5px ;
+	}
+	.list1 a {
+		margin-left: 10px;
+		margin-top: 15px;
+	}
+}
