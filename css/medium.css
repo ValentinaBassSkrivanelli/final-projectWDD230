@@ -51,22 +51,7 @@
 		border-radius: 15px;
 		
 	}
-	.weather {
-		color: #ffffff;
-		height: auto;
-		width: auto;
-		margin: 5px;
-		grid-column: 4/5;
-		grid-row: 5/6;
-		border-radius: 15px;
-	
-	}
-	.weather-h2 {
-		margin-top: 5px;
-	}
-	#weather-icon { 
-		margin-top: -30px;
-	}
+
 	
 	.new {
 		padding: 5px;
