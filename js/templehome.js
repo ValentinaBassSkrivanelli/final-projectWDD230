@@ -19,23 +19,42 @@ function temple1(content) {
   let temple1 = document.createElement('div');
   let image = document.createElement('img');
   let templeName = document.createElement('h2');
+  let address = document.createElement('p');
   let telephone = document.createElement('p');
   let email = document.createElement('a');
+  let services = document.createElement('p');
+
+  let ordinances = document.createElement('p');
+  let sessions= document.createElement('p');
+  let templeclousure = document.createElement('p');
+
 
   image.setAttribute('src', content.imageurl);
   image.setAttribute('alt', ` ${content.name} image `);
   image.setAttribute('loading', 'lazy');
 
   templeName.textContent = `${content.name}`;
+  address.textContent = `${content.address}`;
   telephone.textContent = `${content.telephone} `;
-  email.textContent = `${content.email} `;
+  email.textContent = `${content.emailmsj} `;
   email.href = `${content.email} `;
- 
+  services.textContent = `${content.services} `;
+
+  ordinances.textContent = `${content.ordinanceschedule}` ;
+  sessions.textContent = `${content.sessionschedule}` ;
+  templeclousure.textContent = `${content.templeclousure}`;
 
   temple1.appendChild(image);
   temple1.appendChild(templeName);
+  temple1.appendChild(address);
   temple1.appendChild(telephone);
   temple1.appendChild(email);
+  temple1.appendChild(services);
+
+  temple1.appendChild(ordinances);
+  temple1.appendChild(sessions);
+  temple1.appendChild(templeclousure);
+
 
   document.querySelector('.temple1').appendChild(temple1);
 
