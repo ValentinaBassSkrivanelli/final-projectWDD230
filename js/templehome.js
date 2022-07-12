@@ -51,7 +51,7 @@ function temple1(content) {
   temple1.appendChild(telephone);
   temple1.appendChild(email);
   temple1.appendChild(services);
-
+  temple1.appendChild(history);
   temple1.appendChild(ordinances);
   temple1.appendChild(sessions);
   temple1.appendChild(templeclousure);
