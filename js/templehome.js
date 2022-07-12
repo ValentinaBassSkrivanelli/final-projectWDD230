@@ -34,15 +34,15 @@ function temple1(content) {
   image.setAttribute('loading', 'lazy');
 
   templeName.textContent = `${content.name}`;
-  address.textContent = `${content.address}`;
-  telephone.textContent = `${content.telephone} `;
+  address.textContent = `Address: ${content.address}`;
+  telephone.textContent = `Telephone: ${content.telephone} `;
   email.textContent = `${content.emailmsj} `;
   email.href = `${content.email} `;
-  services.textContent = `${content.services} `;
+  services.textContent = ` Services: ${content.services} `;
 
-  ordinances.textContent = `${content.ordinanceschedule}` ;
-  sessions.textContent = `${content.sessionschedule}` ;
-  templeclousure.textContent = `${content.templeclousure}`;
+  ordinances.textContent = `Ordinances: ${content.ordinanceschedule}` ;
+  sessions.textContent = `Sessions: ${content.sessionschedule}` ;
+  templeclousure.textContent = `Temple Clousure: ${content.templeclousure}`;
 
   temple1.appendChild(image);
   temple1.appendChild(templeName);
