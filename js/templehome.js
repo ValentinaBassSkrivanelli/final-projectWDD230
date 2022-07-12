@@ -23,7 +23,7 @@ function temple1(content) {
   let telephone = document.createElement('p');
   let email = document.createElement('a');
   let services = document.createElement('p');
-
+  let history = document.createElement('p');
   let ordinances = document.createElement('p');
   let sessions= document.createElement('p');
   let templeclousure = document.createElement('p');
@@ -39,7 +39,8 @@ function temple1(content) {
   email.textContent = `${content.emailmsj} `;
   email.href = `${content.email} `;
   services.textContent = ` Services: ${content.services} `;
-
+  history.textContent = ` ${content.historytext} `;
+  history.href = ` ${content.history}` ;
   ordinances.textContent = `Ordinances: ${content.ordinanceschedule}` ;
   sessions.textContent = `Sessions: ${content.sessionschedule}` ;
   templeclousure.textContent = `Temple Clousure: ${content.templeclousure}`;
