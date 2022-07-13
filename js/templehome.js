@@ -50,11 +50,11 @@ function temple1(content) {
   temple1.appendChild(address);
   temple1.appendChild(telephone);
   temple1.appendChild(email);
-  temple1.appendChild(services);
-  temple1.appendChild(history);
-  temple1.appendChild(ordinances);
-  temple1.appendChild(sessions);
-  temple1.appendChild(templeclousure);
+  //temple1.appendChild(services);
+  //temple1.appendChild(history);
+ //temple1.appendChild(ordinances);
+ // temple1.appendChild(sessions);
+ // temple1.appendChild(templeclousure);
 
 
   document.querySelector('.temple1').appendChild(temple1);
@@ -68,7 +68,7 @@ function temple1(content) {
     let telephone = document.createElement('p');
     let email = document.createElement('a');
     let services = document.createElement('p');
-  
+    let history = document.createElement('a');
     let ordinances = document.createElement('p');
     let sessions= document.createElement('p');
     let templeclousure = document.createElement('p');
@@ -84,7 +84,8 @@ function temple1(content) {
     email.textContent = `${content.emailmsj} `;
     email.href = `${content.email} `;
     services.textContent = ` Services: ${content.services} `;
-  
+    history.textContent = ` ${content.historytext} `;
+    history.href = `${content.history}` ;
     ordinances.textContent = `Ordinances: ${content.ordinanceschedule}` ;
     sessions.textContent = `Sessions: ${content.sessionschedule}` ;
     templeclousure.textContent = `Temple Clousure: ${content.templeclousure}`;
@@ -94,11 +95,11 @@ function temple1(content) {
     temple2.appendChild(address);
     temple2.appendChild(telephone);
     temple2.appendChild(email);
-    temple2.appendChild(services);
-  
-    temple2.appendChild(ordinances);
-    temple2.appendChild(sessions);
-    temple2.appendChild(templeclousure);
+   // temple2.appendChild(services);
+   // temple2.appendChild(history);
+  //  temple2.appendChild(ordinances);
+   // temple2.appendChild(sessions);
+   // temple2.appendChild(templeclousure);
   
   
     document.querySelector('.temple2').appendChild(temple2);
@@ -109,13 +110,14 @@ function temple1(content) {
   function temple3(content) {
     // Create elements to add to the document
     let temple3 = document.createElement('div');
-    let image = document.createElement('img');
+    let image = document.createElement('a');
+    
     let templeName = document.createElement('h2');
     let address = document.createElement('p');
     let telephone = document.createElement('p');
     let email = document.createElement('a');
     let services = document.createElement('p');
-  
+    let history = document.createElement('a');
     let ordinances = document.createElement('p');
     let sessions= document.createElement('p');
     let templeclousure = document.createElement('p');
@@ -131,7 +133,8 @@ function temple1(content) {
     email.textContent = `${content.emailmsj} `;
     email.href = `${content.email} `;
     services.textContent = ` Services: ${content.services} `;
-  
+    history.textContent = ` ${content.historytext} `;
+    history.href = `${content.history}` ;
     ordinances.textContent = `Ordinances: ${content.ordinanceschedule}` ;
     sessions.textContent = `Sessions: ${content.sessionschedule}` ;
     templeclousure.textContent = `Temple Clousure: ${content.templeclousure}`;
@@ -141,11 +144,11 @@ function temple1(content) {
     temple3.appendChild(address);
     temple3.appendChild(telephone);
     temple3.appendChild(email);
-    temple3.appendChild(services);
-  
-    temple3.appendChild(ordinances);
-    temple3.appendChild(sessions);
-    temple3.appendChild(templeclousure);
+   // temple3.appendChild(services);
+   // temple3.appendChild(history);
+   // temple3.appendChild(ordinances);
+   // temple3.appendChild(sessions);
+  //  temple3.appendChild(templeclousure);
   
   
     document.querySelector('.temple3').appendChild(temple3);

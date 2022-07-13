@@ -176,7 +176,7 @@ footer p {
  margin-top: -65px;
 }
 
-/*----------- MAIN --------------*/
+/*----------- others --------------*/
 ul {
     list-style: none;
 }
@@ -189,6 +189,40 @@ main picture.hero-img img {
     width: 100%;
 
 }
+/*----------- templelist --------------*/
+.templelist h2 {
+    color: #4b675B;
+    margin: 1.5px;
 
+}
+.templelist {
+    text-align: left;
+    margin-top: -80px;
+    text-align: center;
+}
+.templelist img {
+    width: 200px;
+}
+.templelist p {
+    margin: 1.5px;
+}
+.temple3 {
+    display: none;
+}
+.temple1, .temple2, .temple3 {
+    background-color: #ffedc2;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    height: 3auto;
+}
+.seetemple1, .seetemple2 {
+    position: relative;
+    top: 280px;
+}
 
+/*-----------weather home --------------*/
 
+.weather {
+    background-color: #6A8E7F;
+}
