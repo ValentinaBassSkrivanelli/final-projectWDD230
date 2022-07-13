@@ -44,7 +44,9 @@ function temple1(content) {
   ordinances.textContent = `Ordinances: ${content.ordinanceschedule}` ;
   sessions.textContent = `Sessions: ${content.sessionschedule}` ;
   templeclousure.textContent = `Temple Clousure: ${content.templeclousure}`;
+  seetemple.textContent = ` ${content.seetemplemsj}`;
   seetemple.href = ` ${content.seetemple}`;
+
 
 
   temple1.appendChild(image);
