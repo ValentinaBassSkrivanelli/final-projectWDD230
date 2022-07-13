@@ -110,8 +110,7 @@ function temple1(content) {
   function temple3(content) {
     // Create elements to add to the document
     let temple3 = document.createElement('div');
-    let image = document.createElement('a');
-    
+    let image = document.createElement('img');
     let templeName = document.createElement('h2');
     let address = document.createElement('p');
     let telephone = document.createElement('p');
