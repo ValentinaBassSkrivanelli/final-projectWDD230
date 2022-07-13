@@ -27,7 +27,7 @@ function temple1(content) {
   let ordinances = document.createElement('p');
   let sessions= document.createElement('p');
   let templeclousure = document.createElement('p');
-
+  let seetemple = document.createElement('a');
 
   image.setAttribute('src', content.imageurl);
   image.setAttribute('alt', ` ${content.name} image `);
@@ -44,6 +44,8 @@ function temple1(content) {
   ordinances.textContent = `Ordinances: ${content.ordinanceschedule}` ;
   sessions.textContent = `Sessions: ${content.sessionschedule}` ;
   templeclousure.textContent = `Temple Clousure: ${content.templeclousure}`;
+  seetemple.href = ` ${content.seetemple}`;
+
 
   temple1.appendChild(image);
   temple1.appendChild(templeName);
@@ -55,7 +57,7 @@ function temple1(content) {
  //temple1.appendChild(ordinances);
  // temple1.appendChild(sessions);
  // temple1.appendChild(templeclousure);
-
+  temple1.appendChild(seetemple);
 
   document.querySelector('.temple1').appendChild(temple1);
 }
@@ -138,6 +140,7 @@ function temple1(content) {
     sessions.textContent = `Sessions: ${content.sessionschedule}` ;
     templeclousure.textContent = `Temple Clousure: ${content.templeclousure}`;
   
+
     temple3.appendChild(image);
     temple3.appendChild(templeName);
     temple3.appendChild(address);
@@ -148,6 +151,8 @@ function temple1(content) {
    // temple3.appendChild(ordinances);
    // temple3.appendChild(sessions);
   //  temple3.appendChild(templeclousure);
+   
+
   
   
     document.querySelector('.temple3').appendChild(temple3);

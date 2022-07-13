@@ -11,11 +11,12 @@
 "historytext" : "Temple History",
 "ordinanceschedule" : "Currently, you can schedule these ordinances online at this temple: Proxy Baptism Proxy Initiatory Proxy Endowment Proxy Sealing",
 "sessionschedule" : "N/A",
+"seetemple":"https://valentinabassskrivanelli.github.io/final-projectWDD230/temple.html",
+"seetemplemsj" : "See Temple",
 "templeclousure" : "Saturday, 1 October 2022, Monday,  10 October 2022 - Monday, 24 October 2022, Wednesday, 23 November 2022 - Thursday, 24 November 2022, Saturday, 24 December 2022 - Sunday, 25 December 2022, Saturday, 31 December 2022 - Sunday, 1 January 2023"
 },
 {
 "imageurl": "https://assets.ldscdn.org/57/18/5718c8b9c5a103646c0bd22554cb268b88986f05/provo_city_center_temple_exterior.jpg",
-"seetemple":"https://valentinabassskrivanelli.github.io/final-projectWDD230/temple.html",
 "name":"Provo City Utah Temple",
 "address":"50 South University Ave Provo UT 84601 United States",
 "telephone" :"(1) 801-343-2700",
