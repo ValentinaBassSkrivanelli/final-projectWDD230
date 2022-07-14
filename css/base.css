@@ -10,6 +10,10 @@ color: #4b675B;
 background-color: #6A8E7F;
 color: #ffedc2;
 color: #fcfeeb; */
+
+body{
+    background-color: #6A8E7F;
+}
 nav button {
     margin: .2rem 2vw;
     background: transparent;
@@ -174,8 +178,11 @@ footer p {
 }
 .contact-home {
  margin-top: -65px;
-}
 
+}
+.contact-paragraph-home, .reserve-paragraph-home {
+    display: none;
+}
 /*----------- others --------------*/
 ul {
     list-style: none;
@@ -225,4 +232,10 @@ main picture.hero-img img {
 
 .weather {
     background-color: #6A8E7F;
+    
 }
+.weather h2 {
+	color: #ffedc2;
+    font-size: 15px;
+}
+

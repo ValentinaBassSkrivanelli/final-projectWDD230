@@ -9,10 +9,37 @@
 		margin-left: 50%;
 	}
 
+/* --------main home*/
+
+.flex-contact, .flex-reserve {
+	display: flex;
+	flex-direction: row;
+	height: auto;
+
+}
+.contact-paragraph-home, .reserve-paragraph-home  {
+    display: block;
+	padding-left: 20px;
+	color: #ffedc2;
+	padding-right: 10px;
+}
+/* --------templelist home*/
+.templelist {
+	display: flex;
+	
+}
+.temple1, .temple2 {
+	margin-right: 10px;
+}
+.temple3 {
+	display: block;
+}
 /* --------weather home*/
 .weather {
 	display: flex;
 	flex-direction: row;
+
 }
+
 
 }
