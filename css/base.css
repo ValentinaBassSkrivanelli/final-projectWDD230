@@ -227,7 +227,9 @@ main picture.hero-img img {
     position: relative;
     top: 280px;
 }
-
+.services {
+    display: none;
+}
 /*-----------weather home --------------*/
 
 .weather {
