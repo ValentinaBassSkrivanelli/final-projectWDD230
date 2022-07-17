@@ -36,7 +36,7 @@ main {
 	flex-direction: column;
 	grid-column: 1/2;
 	grid-row: 2/5;
-	width: 300px;
+	width: 400px;
 	margin-top: -65px;
 	
 }
@@ -68,7 +68,7 @@ color: #ffedc2;
 	flex-direction: column;
 	grid-column: 3/4;
 	grid-row: 2/5;
-	width: 300px;
+	width: 400px;
 	background-color:#ffedc2;
 	margin-top: -57px;
 	height: 900px;
