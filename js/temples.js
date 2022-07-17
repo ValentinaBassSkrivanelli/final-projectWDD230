@@ -8,14 +8,14 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const temples = jsonObject['temples'];
-    temples.forEach(temple1);
+    temples.forEach(temple1temple);
    
       
 });
 
-function temple1(content) {
+function temple1temple(content) {
   // Create elements to add to the document
-  let temple1 = document.createElement('div');
+  let temple1temple = document.createElement('div');
   let image = document.createElement('img');
   let templeName = document.createElement('h2');
   let address = document.createElement('p');
@@ -48,17 +48,17 @@ function temple1(content) {
 
 
 
-  temple1.appendChild(image);
-  temple1.appendChild(templeName);
-  temple1.appendChild(address);
-  temple1.appendChild(telephone);
-  temple1.appendChild(email);
-  temple1.appendChild(services);
-  temple1.appendChild(history);
-  temple1.appendChild(ordinances);
-  temple1.appendChild(sessions);
-  temple1.appendChild(templeclousure);
+  temple1temple.appendChild(image);
+  temple1temple.appendChild(templeName);
+  temple1temple.appendChild(address);
+  temple1temple.appendChild(telephone);
+  temple1temple.appendChild(email);
+  temple1temple.appendChild(services);
+  temple1temple.appendChild(history);
+  temple1temple.appendChild(ordinances);
+  temple1temple.appendChild(sessions);
+  temple1temple.appendChild(templeclousure);
 
 
-  document.querySelector('.temple1').appendChild(temple1);
+  document.querySelector('.temple1temple').appendChild(temple1temple);
 }
