@@ -245,30 +245,23 @@ main picture.hero-img img {
 
 /*-----------temple page --------------*/
 .companys img {
-    width: 200px;
+    width: 300px;
 }
-.companys {
-    
+.companys { 
     justify-content: center;
-    border: 1px solid #114B5F;
-    
-    
+ 
 }
-.companys h3 {
-    color: #BC7024;
-}
+
 .list1 section  {
     display: flex;
-    flex-direction: row;
-    width: 500px;
+    flex-direction: column;
+    width: 400px;
     padding: 0.5rem;
     border-radius: 5px;
-    border: 1px solid #114B5F;
+    border: 1px solid #ffedc2;
 
   }
-.list1 img {
-display: none;
-}
+
 .list1 h2 {
     font-size: 1rem;
     margin-right: 10px;
@@ -276,30 +269,27 @@ display: none;
 .list1 p {
     margin-left: 8px;
 }
+.grid1 p {
+    display: none;
+
+}
 
 section {
     background-color: #9797974d;
     border: solid #a09e9c;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 2px;
     padding: 15px;
-    min-width: 350px;
     border-radius: 5px;
-    width: 200px;
     display: flex;
     flex-direction: column;
+}
+section img {
     margin: auto;
-    width: 200px;
-   
-   
-   
-
 }
 .menu {
-    background-color:#9797974d;
+    background-color:#ffedc2;
     height: 80px;
-    border: 1px solid #114B5F;
+    border: 1px solid #ffedc2;
     border-radius: 5px;
     margin-top: 20px;
     text-align: center;
@@ -309,16 +299,16 @@ section {
 .menu button {
     padding: 1rem;
     margin-top: 15px;
-    background-color: #114B5F;
-    color: #BC7024;
-    border: solid #BC7024;
+    background-color: #4b675B;
+    color: #ffedc2;
+    border: solid #4b675B;
     margin-right: 5px;
     border-radius: 5px;
   
-    
 }
+
 #grid:hover, #list:hover  {
-	color: #114B5F;
-	background-color: #BC7024;
+	color: #fcfeeb;
+	background-color: #6A8E7F;
     transition: 0.5s;
 }
