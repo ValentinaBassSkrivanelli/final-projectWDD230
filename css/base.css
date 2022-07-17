@@ -223,7 +223,7 @@ main picture.hero-img img {
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 15px;
-    height: 3auto;
+    height: auto;
 }
 .seetemple1, .seetemple2 {
     position: relative;
@@ -243,3 +243,7 @@ main picture.hero-img img {
     font-size: 15px;
 }
 
+/*-----------temple page --------------*/
+.templelist-temple img {
+    width: 200px;
+}
