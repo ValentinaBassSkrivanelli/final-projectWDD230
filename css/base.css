@@ -154,8 +154,9 @@ footer p {
     background-color: #000000a7;
     height: 80px;
     position: relative;
-    top: -83px;
+    top: -85px;
     text-align: center;
+ 
     
 }
 .reserve-button a, .contact-button a {
@@ -187,6 +188,7 @@ footer p {
 ul {
     list-style: none;
 }
+
 
 main {
     padding: 0 2%;
@@ -227,7 +229,7 @@ main picture.hero-img img {
     position: relative;
     top: 280px;
 }
-.services {
+.services-home {
     display: none;
 }
 /*-----------weather home --------------*/

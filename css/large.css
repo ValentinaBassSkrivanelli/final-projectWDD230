@@ -21,6 +21,7 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr a;
 	grid-template-rows: auto 1fr 1fr 1fr 1fr ;
+	grid-column-gap: 10px;
 }
 .reserve-home{
 	
@@ -35,12 +36,26 @@ main {
 	flex-direction: column;
 	grid-column: 1/2;
 	grid-row: 2/5;
+	width: 300px;
+	margin-top: -65px;
 	
 }
 .contact-home {
+	background-color: rgba(0, 0, 0, 0.664);
+	width:400px;
+	height: 585px;
+}
+.contact-button {
 	
-	grid-column: 2/3;
-	grid-row: 2/4;
+	background-color: #4b675B;
+	top: 50px;
+}
+.contact-button p {
+color: #ffedc2;
+}
+.contact-paragraph-home {
+	width:400px;
+	margin-top: 30px;
 }
 .flex-contact {
 	display: flex;
@@ -51,13 +66,41 @@ main {
 	flex-direction: column;
 	grid-column: 3/4;
 	grid-row: 2/5;
+	width: 250px;
 	background-color:#ffedc2;
+	margin-top: -57px;
+	height: 900px;
+	border-radius: 15px;
 }
-.services {
+.services-home  {
 	grid-column: 2/3;
-	grid-row: 4/5;
+	grid-row: 3/5;
     display: block;
-	background-color: aliceblue;
+	width: 400px;
+	background-color: #ffedc2;;
+	margin-top: 10px;
+	height: 300px;
+	border-radius: 15px;
+	padding: 10px;
+	
+}
+.services-home h3{
+	color: #4b675B;
+	padding: 10px;
+	text-align: center;
+}
+.services-button-home {
+	background-color: #4b675B;
+	border-radius: 15px;
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+	margin-left: 25%;
+
+}
+.services-button-home a {
+	text-decoration: none ;
+	color: #fcfeeb ;
 }
 /*GRIIIIIIIIIIIIDDDDDDDDDD*/
 
