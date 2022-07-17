@@ -40,6 +40,24 @@
 	flex-direction: row;
 
 }
+#companys {
+	max-width: 800px; 
+	
+	}
+	.companys h3 {
+		display: none;
+	}
+section {
+	margin:  5px 5px 5px 5px ;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 650px;  
 
+}
+.list1 a {
+	margin-left: 10px;
+	margin-top: 15px;
+}
 
 }
