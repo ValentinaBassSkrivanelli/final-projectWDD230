@@ -44,7 +44,7 @@ main {
 	background-color: rgba(0, 0, 0, 0.664);
 	grid-column: 2/3;
 	grid-row: 2/4;
-	width:400px;
+	width:500px;
 	height: 585px;
 }
 .contact-button {
@@ -73,6 +73,7 @@ color: #ffedc2;
 	margin-top: -57px;
 	height: 900px;
 	border-radius: 15px;
+	margin-left: 10px;
 	
 }
 .services-home  {
