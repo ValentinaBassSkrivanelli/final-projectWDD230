@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world. ">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <!--font-family: 'Oswald', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--font-family: 'Roboto', sans-serif;-->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/f0b4635a18.js" crossorigin="anonymous"></script>
+
+    <title>Temple Inn & Suites</title>
+</head>
+<body>
+    <header>
+       
+        <div class="header-container">
+            <nav>
+                <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="temple.html">Temple</a></li>
+                    <li><a href="reservtion.html">Reservation</a></li>
+                    <li><a href="services.html">Service</a></li>
+                </ul>
+            </nav> 
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpeg" alt= "Logo of the Temple Inn and Suites"></a>
+            </div>
+
+            <h1>Temple Inn & Suites </h1>
+       
+            <div class="social">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square fa-2x"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram-square fa-2x"></i></a>
+            </div>
+          
+        </div>           
+    </header>
+    <main>
+        <form method="get" action="thankyou.html">
+    
+            <fieldset>
+                <legend>Personal Information</legend>
+               <label class="top">First Name*<input type="text" name="fname" required ></label>
+               <label class="top">Last Name*<input type="text" name="lname" required ></label>
+               <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+               <label class="top">Tel*<input type="text" name="tel" placeholder="1231551238" required></label>
+               <label class="top">State or country of residence<input type="text" name="conuntry" placeholder="Mexico" pattern= "[-A-Za-z\s]{4,}" required ></label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Reservation Data</legend>
+                <label for="start">Entry date:</label>
+
+                <input type="date" id="start" name="trip-start"
+                       value="2022-07-22"
+                       min="2022-01-01" max="2023-12-31">
+
+                <label for="start">Departure date:</label>
+
+                       <input type="date" id="departure" name="trip-departure"
+                              value="2022-07-22"
+                              min="2022-01-01" max="2023-12-31">
+       
+                       
+                <label for="cars">Choose the hotel:</label>
+                <select id="hotels" name="hotels">
+                  <option value="hyatt">Hyatt Regancy</option>
+                  <option value="embassy">Embassy Suites</option>
+                  <option value="hilton">Hilton Garden</option>
+                  <option value="betheseda">Bethesda North</option>
+                </select>
+                <label for="cars">Number of rooms:</label>
+                <select id="rooms" name="rooms">
+                  <option value="1room">1</option>
+                  <option value="2room">2</option>
+                  <option value="3room">3</option>
+                  <option value="4room">4</option>
+                </select>
+                <div>Rooms</div>
+                <div class="Choose an option">
+              
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Familiar </label>
+                
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Individual </label>
+                <ul>
+                   
+                </ul>
+               
+                </div>
+            </fieldset>
+    
+            <fieldset>
+            <legend>Comments</legend>
+            <input type="hidden" id="formTime" name="currentDate" value="">
+            <label><textarea name="description" class="description"></textarea></label>
+        
+            </fieldset>
+
+            <input type="submit" value="Reserve Now" class="submitBtn">
+  
+            </form>
+    </main>
+
+<footer>
+    <div class="footer-1">
+        <div class="icon">
+            <img src="images/logo.jpeg" alt= "logo of the Temple Inn and Suites">
+        </div>
+
+        <div class="footer-left">
+            <h5>Temple Inn & Suites</h5>
+            <address> 4800 Montgomery Ln #300, Bethesda, MD 20814 <br></address>
+        </div>
+
+        <div class="footer-contact">
+            <p>templesuitesa@gmail.com <br></p>
+            <p>+54 9 3456 765 543</p>
+            <ul class="location">
+                <li><a href="index.html">Location map</a></li>
+            </ul>
+        </div>
+       
+    </div>
+    <hr class="footer-hr">
+
+    <div class= "copy">
+    <p>&copy;<span id="currentYear">
+    </span> .:|:. Valentina Bass .:|:. WDD230 Project</p>
+    <p class="updated"><span id= "current"></span></p>
+    </div>
+    
+        
+</footer>
+<script src="js/currentdate.js "></script>
+<script src="js/nav.js"></script>
+
+
+</body>
+</html>
