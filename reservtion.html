@@ -53,16 +53,16 @@
     
             <fieldset>
                 <legend>Personal Information</legend>
-               <label class="top">First Name*<input type="text" name="fname" required ></label>
-               <label class="top">Last Name*<input type="text" name="lname" required ></label>
-               <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-               <label class="top">Tel*<input type="text" name="tel" placeholder="1231551238" required></label>
-               <label class="top">State or country of residence<input type="text" name="conuntry" placeholder="Mexico" pattern= "[-A-Za-z\s]{4,}" required ></label>
+               <label class="top">First Name* <input type="text" name="fname" required ></label>
+               <label class="top">Last Name* <input type="text" name="lname" required ></label>
+               <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+               <label class="top">Tel* <input type="text" name="tel" placeholder="1231551238" required></label>
+               <label class="top">State or country of residence <input type="text" name="conuntry" placeholder="Mexico" pattern= "[-A-Za-z\s]{4,}" required ></label>
             </fieldset>
     
             <fieldset>
                 <legend>Reservation Data</legend>
-                <label for="start">Entry date:</label>
+                <label for="start" class="start">Entry date:</label>
 
                 <input type="date" id="start" name="trip-start"
                        value="2022-07-22"
@@ -105,13 +105,21 @@
             <fieldset>
             <legend>Comments</legend>
             <input type="hidden" id="formTime" name="currentDate" value="">
-            <label><textarea name="description" class="description"></textarea></label>
+            <label><textarea name="description" class="reservation-description"></textarea></label>
         
             </fieldset>
 
             <input type="submit" value="Reserve Now" class="submitBtn">
   
             </form>
+
+            <section class="popular-hotels">
+                <h5>Popular Hotels </h5>
+                <h3>Hyatt Regency Bethesda near Washington D.C.Se abre en una ventana nueva</h3>
+                <img src="images/hyattlarge.jpg" alt= "Hyatt Hotel image">
+                <img src="images/hyattsmall1.jpg" alt= "Hyatt Hotel image">
+                <img src="images/hyattsmall2.jpg" alt= "Hyatt Hotel image">
+            </section>
     </main>
 
 <footer>
