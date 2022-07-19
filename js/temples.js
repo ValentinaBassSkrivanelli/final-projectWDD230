@@ -50,9 +50,9 @@ function displayBusiness(content) {
     company.appendChild(email);
     company.appendChild(services);
     company.appendChild(history);
-   company.appendChild(ordinances);
-   company.appendChild(sessions);
-   company.appendChild(templeclousure);
+    company.appendChild(ordinances);
+    company.appendChild(sessions);
+    company.appendChild(templeclousure);
 
 
 
