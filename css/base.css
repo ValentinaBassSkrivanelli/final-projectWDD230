@@ -273,6 +273,26 @@ main picture.hero-img img {
     display: none;
 
 }
+.like p {
+ color: #ffedc2;
+}
+#like, #like2, #like3, #like4, #like5, #like6  {
+    font-family: 'Oswald', sans-serif;
+    color: #ffedc2;
+    font-size: 15px;
+   
+
+}
+#boton, #boton2, #boton3, #boton4, #boton5, #boton6 {
+    font-family: 'Oswald', sans-serif;
+    padding: 3px;
+    margin-top: 15px;
+    background-color: #4b675B;
+    color: #ffedc2;
+    border: solid #4b675B;
+    margin-right: 5px;
+    border-radius: 5px;
+}
 
 section {
     background-color: #9797974d;
@@ -282,6 +302,7 @@ section {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    
 }
 section img {
     margin: auto;

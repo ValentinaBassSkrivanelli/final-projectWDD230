@@ -23,6 +23,7 @@ function displayBusiness(content) {
     let ordinances = document.createElement('p');
     let sessions= document.createElement('p');
     let templeclousure = document.createElement('p');
+    let likebutton = document.createElement('a');
   
     image.setAttribute('src', content.imageurl);
     image.setAttribute('alt', ` ${content.name} image `);
@@ -39,6 +40,8 @@ function displayBusiness(content) {
     ordinances.textContent = `Ordinances: ${content.ordinanceschedule}` ;
     sessions.textContent = `Sessions: ${content.sessionschedule}` ;
     templeclousure.textContent = `Temple Clousure: ${content.templeclousure}`;
+    likebutton.textContent = `${content.likebutton}`;
+    likebutton.href= `${content.likebutton}`;
 
     company.appendChild(image);
     company.appendChild(name);
@@ -50,6 +53,8 @@ function displayBusiness(content) {
    company.appendChild(ordinances);
    company.appendChild(sessions);
    company.appendChild(templeclousure);
+
+
 
     document.querySelector('.companys').appendChild(company);
 }
