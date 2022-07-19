@@ -384,3 +384,61 @@ form input.submitBtn {
 .popular-hotels h5, h3 {
 color: #ffedc2;
 }
+
+/* SERVICES.html*/
+.header-services img, .specialized-services img {
+    width: 100%;
+}
+.header-services h1{
+    color:#ffedc2;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: #4b675B;
+}
+
+.specialized-services h3, .free-services h3{
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+.specialized-services, .free-services {
+color:#fcfeeb;
+}
+.specialized-services, .free-services {
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+border: 1px solid #ffedc2;
+}
+
+.reception-services a {
+    font-family: 'Roboto', sans-serif;
+    background-color: #4b675B;
+    text-decoration: none ;
+    color: #ffedc2 ;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 25%;
+}
+.reception-services{
+    margin-top: 20px;
+}
+.contact-services {
+    margin-bottom: 10px;
+}
+.contact-services img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 200px;
+
+    margin-top: 15px;
+}
+.contact-services a {
+    text-decoration: none ;
+    color: #ffedc2 ;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #4b675B;
+    margin-left: 30%;
+    padding: 5px;
+    }
