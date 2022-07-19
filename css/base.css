@@ -453,3 +453,13 @@ border: 1px solid #ffedc2;
 .food-reception img {
     width: 100%;
 }
+/*templemissionary.html*/
+.contact-templemissionary img {
+    width: 100%;
+}
+.map1 {
+  text-align: center;
+}
+.map2, .map3 {
+    display: none;
+}

@@ -189,5 +189,41 @@ flex-direction: row;
 }
 
 /*RECEPTION.html*/
+.main-reception  {
+	display: block;
+}
+.header-reception img {
+	width: 100%;
+	height: 300px;
+}
+.food-reception {
+	display: flex;
+	margin-bottom: 20px;
 
+}
+.food-reception img {
+	width: 50%;
+	height: 500px;
+	
+}
+.h4-food {
+	display: none;
+}
+/*templemissionary.html*/
+
+.contact-templemissionary img {
+    width: 500px;
+	height: 600px;
+	margin-top: 50px;
+	margin-left: -100px;
+}
+.map2 {
+	display: block;
+	margin-top: 50px;
+	margin-left: 50px ;
+
+}
+.map1 {
+	display: none;
+}
 }
