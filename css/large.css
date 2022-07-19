@@ -155,6 +155,39 @@ section {
 	margin-top: 40px;
 	width: 100%;
 }
+/*SERVICES.HTML*/
+.header-services img{
+    width: 100%;
+	height: 300px;
 }
-@media only screen and (min-width: 64em) {
+.specialized-services, .free-services{
+display: flex;
+flex-direction: row;
+}
+
+.specialized-services img {
+	width: 50%;
+}
+.specialized-services h3 {
+	margin-left: 25px;
+	text-align: left;
+}
+.free-services img {
+	width: 50%;
+	height: 300px;
+	
+}
+.free-services {
+	align-items: center;
+	align-content: center;
+}
+.free-services h3 {
+	text-align: left;
+	margin-left: 10px;
+	position: relative;
+	top: -100px;
+}
+
+/*RECEPTION.html*/
+
 }

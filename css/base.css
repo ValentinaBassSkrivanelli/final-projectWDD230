@@ -386,6 +386,9 @@ color: #ffedc2;
 }
 
 /* SERVICES.html*/
+.services-page {
+    display: block;
+}
 .header-services img, .specialized-services img {
     width: 100%;
 }
@@ -410,35 +413,43 @@ border-radius: 5px;
 border: 1px solid #ffedc2;
 }
 
-.reception-services a {
-    font-family: 'Roboto', sans-serif;
-    background-color: #4b675B;
-    text-decoration: none ;
-    color: #ffedc2 ;
-    font-size: 15px;
-    padding: 5px;
-    margin-left: 25%;
-}
-.reception-services{
-    margin-top: 20px;
-}
+
 .contact-services {
     margin-bottom: 10px;
+    margin-top: 19px;
+    text-align: center;
 }
-.contact-services img{
+.free-services img{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
-    height: 200px;
+    height: 300px;
 
-    margin-top: 15px;
 }
 .contact-services a {
     text-decoration: none ;
     color: #ffedc2 ;
-    font-size: 30px;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
     background-color: #4b675B;
-    margin-left: 30%;
     padding: 5px;
+
     }
+
+/*RECEPTION.HTML*/
+.header-reception img {
+    width: 100%
+}
+
+.header-reception h1 {
+    color: #ffedc2;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.header-reception h4, .h4-included, .h4-food{
+    color: antiquewhite;
+}
+.food-reception img {
+    width: 100%;
+}
