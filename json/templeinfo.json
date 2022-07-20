@@ -31,6 +31,8 @@
 "ordinanceschedule" : "Currently, you can schedule these ordinances online at this temple:Proxy Baptism Proxy Initiatory Proxy Endowment Proxy Sealing",
 "sessionschedule" : "N/A",
 "seetemple":"https://valentinabassskrivanelli.github.io/final-projectWDD230/temple.html",
+"like": "1",
+"likebutton" : "Like",
 "seetemplemsj" : "See Temple",
 "templeclousure" : "Saturday, 1 October 2022, Wednesday, 23 November 2022 (Limited Operations), Thursday, 24 November 2022, Monday, 28 November 2022 - Monday, 12 December 2022, Saturday, 24 December 2022, Saturday, 31 December 2022"
 },
@@ -46,6 +48,8 @@
 "historytext" : "Temple History",
 "ordinanceschedule" : "Currently, you can schedule these ordinances online at this temple:Proxy Baptism Proxy Initiatory Proxy Endowment Proxy Sealing",
 "sessionschedule" : "N/A",
+"like": "1",
+"likebutton" : "Like",
 "templeclousure" : "Monday, 19 September 2022 - Monday, 26 September 2022, Saturday, 1 October 2022, Wednesday, 23 November 2022 - Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022"
 },
 {
@@ -60,6 +64,8 @@
 "historytext" : "Temple History",
 "ordinanceschedule" :"Currently, you can schedule these ordinances online at this temple:Proxy Baptism Proxy Initiatory Proxy Endowment Proxy Sealing",
 "sessionschedule" : "N/A",
+"like": "1",
+"likebutton" : "Like",
 "templeclousure" : "Saturday, 1 October 2022 Monday, 10 October 2022 - Monday, 24 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022, Saturday, 24 December 2022 Saturday, 31 December 2022 (Limited Operations)"
 },
 {
@@ -74,6 +80,8 @@
 "historytext" : "Temple History",
 "ordinanceschedule" : "Currently, you can schedule these ordinances online at this temple:Proxy Baptism Proxy Initiatory Proxy Endowment Proxy Sealing", 
 "sessionschedule" : "N/A",
+"like": "1",
+"likebutton" : "Like",
 "templeclousure" : "Monday, 26 September 2022 - Monday, 10 October 2022"
 },
 {
@@ -88,6 +96,8 @@
 "historytext" : "Temple History",
 "ordinanceschedule" : "Currently, you can schedule these ordinances online at this temple:Proxy Baptism Proxy Initiatory Proxy Endowment Proxy Sealing",
 "sessionschedule" : "N/A",
+"like": "1",
+"likebutton" : "Like",
 "templeclousure" : "Saturday, 1 October 2022 Monday, 31 October 2022 - Monday, 14 November 2022 ,Wednesday, 23 November 2022 - Thursday, 24 November 2022, Saturday, 24 December 2022 - Monday, 26 December 2022, Saturday, 31 December 2022 - Monday, 2 January 2023"
 }
 ]

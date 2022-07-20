@@ -23,7 +23,8 @@ function displayBusiness(content) {
     let ordinances = document.createElement('p');
     let sessions= document.createElement('p');
     let templeclousure = document.createElement('p');
-    let likebutton = document.createElement('a');
+    let likebutton = document.createElement('button');
+    let like = document.createElement('p');
   
     image.setAttribute('src', content.imageurl);
     image.setAttribute('alt', ` ${content.name} image `);
@@ -41,7 +42,18 @@ function displayBusiness(content) {
     sessions.textContent = `Sessions: ${content.sessionschedule}` ;
     templeclousure.textContent = `Temple Clousure: ${content.templeclousure}`;
     likebutton.textContent = `${content.likebutton}`;
-    likebutton.href= `${content.likebutton}`;
+    like.textContent = `${content.like}`;
+
+    likebutton.addEventListener("click", sumar);
+    function sumar(){company.appendChild(like);}
+
+    like.value = 1;
+
+    window.localStorage.setItem("storemydata", like.value);
+
+    const result = window.localStorage.getItem("storemydata");
+
+    console.log(result);
 
     company.appendChild(image);
     company.appendChild(name);
@@ -53,10 +65,13 @@ function displayBusiness(content) {
     company.appendChild(ordinances);
     company.appendChild(sessions);
     company.appendChild(templeclousure);
+    company.appendChild(likebutton);
 
 
 
     document.querySelector('.companys').appendChild(company);
+
+    
 }
 // grid and list 
 const gridbutton = document.querySelector("#grid");
