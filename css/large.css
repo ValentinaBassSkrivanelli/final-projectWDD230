@@ -212,18 +212,17 @@ flex-direction: row;
 /*templemissionary.html*/
 
 .contact-templemissionary img {
-    width: 500px;
-	height: 600px;
-	margin-top: 50px;
-	margin-left: -100px;
+   display: none;
+	
 }
-.map2 {
+.map3 {
 	display: block;
 	margin-top: 50px;
 	margin-left: 50px ;
 
 }
-.map1 {
+.map1, .map2{
 	display: none;
 }
+
 }

@@ -66,9 +66,13 @@ section {
 .food-reception img {
 	height: 250px;
 }
+.map2 {
+	display: block;
+	text-align: center;
+  }
+  .map1, .map3 {
+	  display: none;
+  }
 
-.contact-templemissionary {
-margin-left: 25%;
-}
 
 }

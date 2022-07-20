@@ -53,64 +53,51 @@
     
             <fieldset>
                 <legend>Personal Information</legend>
-               <label class="top">First Name* <input type="text" name="fname" required ></label>
-               <label class="top">Last Name* <input type="text" name="lname" required ></label>
-               <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-               <label class="top">Tel* <input type="text" name="tel" placeholder="1231551238" required></label>
-               <label class="top">State or country of residence <input type="text" name="conuntry" placeholder="Mexico" pattern= "[-A-Za-z\s]{4,}" required ></label>
+               <label class="top">First Name* <input type="text" id="fname" name="fname" value="" required ></label>
+               <label class="top">Last Name* <input type="text" id="lname" name="lname" required ></label>
+               <label class="top">Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
+               <label class="top">Tel* <input type="text" id="tel" name="tel" placeholder="1231551238" required></label>
+               <label class="top"> State or country of residence:* <input type="text" id="country" name="country" placeholder="Mexico" pattern= "[-A-Za-z\s]{4,}" required ></label>
+             <!--  <label class="top">State or country of residence: * <input type="text" id="country" name="conuntry" placeholder="Mexico" pattern= "[-A-Za-z\s]{4,}" required ></label> -->
             </fieldset>
     
             <fieldset>
                 <legend>Reservation Data</legend>
-                <label for="start" class="start">Entry date:</label>
-
-                <input type="date" id="start" name="trip-start"
-                       value="2022-07-22"
-                       min="2022-01-01" max="2023-12-31">
-
-                <label for="start">Departure date:</label>
-
-                       <input type="date" id="departure" name="trip-departure"
-                              value="2022-07-22"
-                              min="2022-01-01" max="2023-12-31">
-       
+              
+                <label class="top">Entry Date: <input class="start" type="date" name="start"></label>
+                <label class="top">Departure date:  <input class="departure" type="date" name="departure"></label>
                        
-                <label for="cars">Choose the hotel:</label>
+                <label for="hotels">Choose the hotel:</label>
                 <select id="hotels" name="hotels">
-                  <option value="hyatt">Hyatt Regancy</option>
+                  <option value="Hyatt Regancy">Hyatt Regancy</option>
                   <option value="embassy">Embassy Suites</option>
-                  <option value="hilton">Hilton Garden</option>
-                  <option value="betheseda">Bethesda North</option>
+                  <option value=" Hilton Garden">Hilton Garden</option>
+                  <option value=" Betheseda North">Bethesda North</option>
                 </select>
-                <label for="cars">Number of rooms:</label>
+                <label for="rooms">Number of rooms:</label>
                 <select id="rooms" name="rooms">
-                  <option value="1room">1</option>
-                  <option value="2room">2</option>
-                  <option value="3room">3</option>
-                  <option value="4room">4</option>
+                  <option value=" 1 room">1</option>
+                  <option value=" 2 rooms">2</option>
+                  <option value=" 3 rooms">3</option>
+                  <option value=" 4 rooms">4</option>
                 </select>
                 <div>Rooms</div>
-                <div class="Choose an option">
-              
-                <label class="sbs"><input type="radio" name="membership" value="bronze"> Familiar </label>
-                
-                <label class="sbs"><input type="radio" name="membership" value="silver"> Individual </label>
-                <ul>
-                   
-                </ul>
-               
-                </div>
+      
+                <label class="sbs"><input type="radio"  name="typeroom" value=" Familiar"><span class="individual">Familiar</span></label></label>
+                <label class="sbs"><input type="radio"  name="typeroom" value=" Individual"><span class="individual">Individual</span></label>
+
             </fieldset>
     
             <fieldset>
             <legend>Comments</legend>
+
             <input type="hidden" id="formTime" name="currentDate" value="">
-            <label><textarea name="description" class="reservation-description"></textarea></label>
+
+            <label><textarea name="description" id="description" class="reservation-description"></textarea></label>
         
             </fieldset>
 
-            <input type="submit" value="Reserve Now" class="submitBtn">
-  
+            <input type="submit" value="Reserve Now" class="submitBtn" onclick="capturar()">
             </form>
 
             <section class="popular-hotels">
@@ -154,6 +141,8 @@
 </footer>
 <script src="js/currentdate.js "></script>
 <script src="js/nav.js"></script>
+<script src="js/nav.js"></script>
+
 
 
 </body>

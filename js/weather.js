@@ -3,7 +3,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const windChill = document.querySelector('#windChill');
 const speed = document.querySelector('#speed');
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Salta&units=metric&appid=3ae5457e97a7d33f682133e2c5262993';
+const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=-34.603722&lon=-58.381592&exclude=hourly,minutely&units=Metric&appid=d1fde7f43b57c183c1d5d38872f2b70b';
   
 apiFetch(url);
 
@@ -21,9 +21,9 @@ async function apiFetch(apiURL) {
         console.log(error);
     }
   }
-  function displayResults(weatherData) {
-currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-speed.innerHTML = `<strong>${weatherData.wind.speed.toFixed(1)}</strong>`;
+function displayResults(weatherData) {
+currentTemp.innerHTML = `<strong>${weatherData.current.temp.toFixed(0)}</strong>`;
+speed.innerHTML = `<strong>${weatherData.current.wind_speed.toFixed(1)}</strong>`;
 
 const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
 const desc = weatherData.weather[0].description;
@@ -35,7 +35,7 @@ captionDesc.textContent = desc;
 
   if (currentTemp <= 10 && speed > 4.8) {const windChill = 13.12 + 0.6215 * currentTemp - 11.37 * Math.pow(speed, 0.16) + 0.3965 * currentTemp * Math.pow(speed, 0.16);
   
-      document.querySelector("#windChill").innerHTML = `${Math.round(windChill)}&#176;C`;
+     document.querySelector("#windChill").innerHTML = `${Math.round(windChill)}&#176;C`;
   } else {
-    document.querySelector("#windChill").innerHTML = "N/A";
+    document.querySelector("#windChill").innerHTML = "N/A"; 
   }
