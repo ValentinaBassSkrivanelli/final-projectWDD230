@@ -69,12 +69,14 @@ color: #ffedc2;
 	grid-column: 3/4;
 	grid-row: 2/5;
 	width: 300px;
-	background-color:#ffedc2;
 	margin-top: -57px;
 	height: 900px;
 	border-radius: 15px;
 	margin-left: 10px;
-	
+}
+
+.today, .after-tomorrow {
+	margin-left: -15px ;
 }
 .services-home  {
 	grid-column: 2/3;

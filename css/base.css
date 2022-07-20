@@ -235,12 +235,19 @@ main picture.hero-img img {
 /*-----------weather home --------------*/
 
 .weather {
-    background-color: #6A8E7F;
+    background-color: #4b675B;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    color: #fcfeeb;
+    margin-top: 30px;
+    margin-bottom: 30px;
     
 }
 .weather h2 {
 	color: #ffedc2;
     font-size: 15px;
+    margin-top: 45px;
 }
 
 /*-----------temple page --------------*/

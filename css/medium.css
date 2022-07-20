@@ -38,9 +38,10 @@
 .weather {
 	display: flex;
 	flex-direction: row;
-
 }
-
+.today, .after-tomorrow {
+	margin-left:30px ;
+}
 section {
 	margin:  5px 5px 5px 5px ;
 	margin: auto;
