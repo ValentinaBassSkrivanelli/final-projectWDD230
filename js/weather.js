@@ -62,6 +62,11 @@ captionDesc1.textContent = desc1;
 captionDesc2.textContent = desc2;
 captionDesc3.textContent = desc3;
 
+
+const banner = (desc2)
+if (banner  == 'overcast clouds') {
+  document.querySelector("#alert").innerHTML = "ALERT: overcast clouds!!! ";
+}
   }
 
   if (currentTemp1 <= 10 && speed > 4.8) {const windChill = 13.12 + 0.6215 * currentTemp1 - 11.37 * Math.pow(speed1, 0.16) + 0.3965 * currentTemp1 * Math.pow(speed1, 0.16);
@@ -71,9 +76,4 @@ captionDesc3.textContent = desc3;
     document.querySelector("#windChill1").innerHTML = "N/A"; 
   }
 
-function banner() {
-  const descbanner =  weatherData.daily[1].weather[0].description;
-  if (descbanner == 'overcast clouds') {
-    console.log('hola')
-  }
-}
+

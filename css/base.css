@@ -493,3 +493,9 @@ border: 1px solid #ffedc2;
 .map2, .map3 {
     display: none;
 }
+
+#alert { 
+    background-color: #ffedc2;
+    padding: 5px;
+    
+}

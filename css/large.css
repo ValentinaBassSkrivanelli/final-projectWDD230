@@ -226,4 +226,12 @@ flex-direction: row;
 	display: none;
 }
 
+#alert { 
+	position: relative;
+
+	width: 90%;
+
+
+
+}
 }
