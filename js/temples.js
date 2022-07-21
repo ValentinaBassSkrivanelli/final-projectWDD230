@@ -47,12 +47,12 @@ function displayBusiness(content) {
     likebutton.addEventListener("click", sumar);
     function sumar(){company.appendChild(like);}
 
-    like.value = 1;
-
+   // like.value = 1;
+    like.textContent = `1`;
     window.localStorage.setItem("storemydata", like.value);
 
     const result = window.localStorage.getItem("storemydata");
-
+    localStorage.setItem("storemydata", like);
     console.log(result);
 
     company.appendChild(image);

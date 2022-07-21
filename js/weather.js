@@ -71,3 +71,9 @@ captionDesc3.textContent = desc3;
     document.querySelector("#windChill1").innerHTML = "N/A"; 
   }
 
+function banner() {
+  const descbanner =  weatherData.daily[1].weather[0].description;
+  if (descbanner == 'overcast clouds') {
+    console.log('hola')
+  }
+}
