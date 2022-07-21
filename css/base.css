@@ -194,10 +194,8 @@ main {
     padding: 0 2%;
     min-height: 20rem;
 }
-main picture.hero-img img {
-    width: 100%;
 
-}
+
 /*----------- templelist --------------*/
 .templelist h2 {
     color: #4b675B;
