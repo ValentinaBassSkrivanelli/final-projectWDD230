@@ -378,6 +378,15 @@ form label.top input {
     max-width: 20rem;
     margin-top: 2px;
 }
+fieldset select {
+    margin-top: 20px;
+
+}
+fieldset label {
+    color:#ffedc2;
+margin-left: 60px;
+}
+
  #start, #departure {
     -webkit-appearance: none;
     display:block;
@@ -497,5 +506,5 @@ border: 1px solid #ffedc2;
 #alert { 
     background-color: #ffedc2;
     padding: 5px;
-    
+
 }
