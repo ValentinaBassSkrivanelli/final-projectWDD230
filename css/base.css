@@ -278,14 +278,26 @@ main {
     display: none;
 
 }
-.like p {
- color: #ffedc2;
-}
-#like, #like2, #like3, #like4, #like5, #like6  {
+
+.companys a, .companys button {
     font-family: 'Oswald', sans-serif;
     color: #ffedc2;
     font-size: 15px;
-   
+}
+.companys button {
+font-family: 'Oswald', sans-serif;
+padding: 3px;
+background-color: #4b675B;
+color: #ffedc2;
+border: solid #4b675B;
+border-radius: 5px;
+width: 50px;
+margin-left: 80%;
+}
+.companys h5 {
+    color: #ffedc2;
+    margin-left: 50%;
+    margin-top: -20px;
 
 }
 #boton, #boton2, #boton3, #boton4, #boton5, #boton6 {

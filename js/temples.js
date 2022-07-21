@@ -24,7 +24,7 @@ function displayBusiness(content) {
     let sessions= document.createElement('p');
     let templeclousure = document.createElement('p');
     let likebutton = document.createElement('button');
-    let like = document.createElement('p');
+    let like = document.createElement('h5');
   
     image.setAttribute('src', content.imageurl);
     image.setAttribute('alt', ` ${content.name} image `);
