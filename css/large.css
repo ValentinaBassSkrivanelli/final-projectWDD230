@@ -151,11 +151,21 @@ section {
 	margin-left: -50px;
 }
 	/*RESERVATION page*/
+	form {
+		margin-left: 100px;
+	 }
 
+	form fieldset {
+		width: 500px;
+	}
 .popular-hotels {
-	margin-left: 60px;
+	margin-left: 90px;
 	margin-top: 40px;
 	width: 100%;
+}
+.popular-hotels img {
+	width: 300px;
+	margin-bottom: 10px;
 }
 /*SERVICES.HTML*/
 .header-services img{
