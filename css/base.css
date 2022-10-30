@@ -399,11 +399,11 @@ margin-left: 60px;
     max-width: 20rem;
     margin-bottom: 10px;
 }
-.reservation-description {
-    width: 100%;
-    height: 100px;
-}
 
+.reservation-description {
+	width: 90%;
+	margin-left: -50px;
+}
 form input.submitBtn {
     border: none;
     background-color: #ffedc2;
@@ -416,12 +416,15 @@ form input.submitBtn {
     margin-bottom: 60px;
 }
 .popular-hotels img {
-    width: 400px;
+    width: 90%;
     margin-bottom: 10px;
 }
 
 .popular-hotels h5, h3 {
 color: #ffedc2;
+}
+.popular-hotels {
+    width: 90%;
 }
 
 /* SERVICES.html*/
